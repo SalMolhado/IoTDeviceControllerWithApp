@@ -3,11 +3,12 @@ import requests
 import logging
 from redis import Redis
 from types import SimpleNamespace
+from os import getcwd, path
 
 
 # configuração do log
 logging.basicConfig(
-    filename=r'C:\Users\gabri\OneDrive\Área de Trabalho\frank\projeto final\backend\server.log',
+    filename=path.join(getcwd(), 'server.log'),
     level=logging.INFO,
     format='CONTROL %(asctime)s %(levelname)s %(name)s %(threadName)s : %(message)s'
 )

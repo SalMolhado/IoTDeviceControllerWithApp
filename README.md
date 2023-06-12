@@ -42,7 +42,7 @@ The script also uses the Start-Sleep cmdlet to add delays between the initializa
 Usage:
 This script is typically run as part of the project startup process, whenever the project's services need to be initialized. It should be run on a system that meets the pre-requisites and has all the necessary micro-service codebases in the appropriate directories.
 
-Please replace 'C:\Users\gabri\OneDrive\Área de Trabalho\frank\projeto final\backend\' with your project path for each service. The script is designed to be run from a PowerShell command prompt.
+Please replace "" with your project path for the $rootPath variable at the beggining of the script. The script is designed to be run from a PowerShell command prompt.
 
 In the root directory of the project, run ./run.ps1 in the powershell command line.
 

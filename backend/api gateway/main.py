@@ -6,6 +6,7 @@ import requests
 import logging
 import traceback
 from fastapi.middleware.cors import CORSMiddleware
+from os import getcwd, path
 
 
 # configuração do servidor
@@ -24,7 +25,7 @@ app.add_middleware(
 
 # configuração do log
 logging.basicConfig(
-    filename=r'C:\Users\gabri\OneDrive\Área de Trabalho\frank\projeto final\backend\server.log',
+    filename=path.join(getcwd(), 'server.log'),
     level=logging.INFO,
     format='GATEWAY %(asctime)s %(levelname)s %(name)s %(threadName)s : %(message)s'
 )
