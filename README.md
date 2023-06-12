@@ -85,7 +85,7 @@ Backend:
 
 Finder Service:
 
-Technology: Python, Flask, Requests
+Technology: Python, Flask, Requests, Waittress
 
 Functionalities:
 
@@ -98,7 +98,7 @@ Logs request and response data for all incoming requests.
 
 Logging Service:
 
-Technology: Python, FastAPI, SQLAlchemy, Requests
+Technology: Python, FastAPI, SQLAlchemy, Requests, Uvicorn
 
 Functionalities:
 
@@ -111,7 +111,7 @@ Logs request and response data for all incoming requests.
 
 Control Service:
 
-Technology: Python, FastAPI, Redis, Requests
+Technology: Python, FastAPI, Redis, Requests, Uvicorn
 
 Functionalities:
 
@@ -123,7 +123,7 @@ Logs request and response data for all incoming requests.
 
 Gateway Service:
 
-Technology: Python, FastAPI, HTTPX, Requests
+Technology: Python, FastAPI, HTTPX, Requests, Uvicorn
 
 Functionalities:
 
